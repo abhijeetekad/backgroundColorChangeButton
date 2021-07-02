@@ -1,0 +1,22 @@
+
+main {
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+    
+  }
+  .container {
+    height: 500px;
+    position: relative;
+    border: 3px solid ;
+  }
+  
+  .vertical-center {
+    margin: 0;
+    padding: 25%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+  }
