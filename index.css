@@ -4,14 +4,15 @@ main {
     display: grid;
     place-items: center;
     
-  }
-  .container {
+}
+.container {
     height: 500px;
     position: relative;
     border: 3px solid ;
-  }
+    background-color: aliceblue;
+}
   
-  .vertical-center {
+.vertical-center {
     margin: 0;
     padding: 25%;
     position: absolute;
@@ -19,4 +20,4 @@ main {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     
-  }
+}
